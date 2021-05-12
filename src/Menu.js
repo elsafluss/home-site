@@ -9,19 +9,19 @@ const Menu = () => {
         title="ChessPedition"
         liveSite="http://chesspedition.herokuapp.com/"
         ghSite="https://github.com/ChessAdventure"
-        icon="chess-icon"
+        icon="chess"
       />
       <Card
         title="Who's That Cub?"
         liveSite="http://whos-that-player.herokuapp.com/"
         ghSite="https://github.com/elsafluss/whos-that-cub"
-        icon="baseball-icon"
+        icon="baseball"
       />
       <Card
         title="Monstronomicon"
         liveSite="http://monstronomicon.herokuapp.com/"
         ghSite="https://github.com/DrewBradley/dnd-monstronomicon"
-        icon="dragon-icon"
+        icon="dragon"
       />
     </section>
   )
