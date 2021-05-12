@@ -1,0 +1,14 @@
+.card {
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blanchedalmond; */
+}
+
+.card:hover {
+    background-color: #4B5530;
+    transform: scale(1.1);
+}
