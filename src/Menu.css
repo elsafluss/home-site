@@ -1,14 +1,18 @@
 .menu {
-    height: 50vh;
-    width: 80vw;
-    /* border: 1px solid pink; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 3em;
-    background-color: #1C1819;
-    background: rgba(0, 0, 0, .5);
-    color: #A2A2A2;
-    font-size: x-large;
+  height: 50vh;
+  width: 80vw;
+  /* border: 1px solid pink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 3em;
+  background-color: #1c1819;
+  background: rgba(0, 0, 0, 0.5);
+  color: #a2a2a2;
+  font-size: x-large;
+}
+
+a:hover {
+    color: #1c1819;
 }

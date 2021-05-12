@@ -3,7 +3,7 @@
   height: 100vh;
   width: 100vw;
   text-align: center;
-  background-image: url('./assets/background-bird.jpeg');
+  background-image: url("./assets/background-bird.jpeg");
   background-size: 100%;
   background-size: cover;
   display: flex;
@@ -39,4 +39,9 @@
 .header-small {
   margin-top: 0;
   font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: #A2A2A2 ;
 }
