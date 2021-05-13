@@ -6,26 +6,25 @@ import baseballIcon from "./assets/baseball-icon.png"
 import dragonIcon from "./assets/dragon-icon.png"
 
 const Card = ({ title, liveSite, ghSite, icon }) => {
-
   return (
     <section className="card">
-      {
-        icon === "chess" ? (
+      {icon === "chess" ? (
         <img src={chessIcon} alt="chess icon" className="card-icon" />
-        )
-        :
-        (icon === "baseball" ? (
+      ) : icon === "baseball" ? (
         <img src={baseballIcon} alt="chess icon" className="card-icon" />
-        )
-        : 
+      ) : (
         icon === "dragon" && (
-        <img src={dragonIcon} alt="chess icon" className="card-icon" />
-        ))
-      }
-      <p>{title}</p>
-      Visit:
-      <a href={liveSite}>deployed app</a>
-      <a href={ghSite}>GitHub repo</a>
+          <img src={dragonIcon} alt="chess icon" className="card-icon" />
+        )
+      )}
+      <p className="title-text">{title}</p>
+      <p className="visit-text">Visit:</p>
+      <a href={liveSite}>
+        <span className="card-text-small">Deployed </span>App
+      </a>
+      <a href={ghSite}>
+        <span className="card-text-small">GitHub </span>Repo
+      </a>
     </section>
   )
 }

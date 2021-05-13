@@ -1,19 +1,34 @@
 .menu {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: #a2a2a2;
   height: 50vh;
-  width: 80vw;
-  /* border: 1px solid pink; */
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-left: 3em;
-  margin-top: 1em;
-  background-color: #1c1819;
-  background: rgba(0, 0, 0, 0.5);
-  color: #a2a2a2;
   font-size: x-large;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  width: 80vw;
 }
 
 a:hover {
-    color: #1c1819;
+  color: #1c1819;
+}
+
+@media only screen and (max-width: 1100px) {
+  .menu {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+    .menu {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .menu {
+        height: 40%;
+    }
 }

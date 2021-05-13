@@ -1,22 +1,66 @@
 .card {
-  height: 90%;
-  width: 30%;
+  align-items: center;
   display: flex;
   flex-direction: column;
+  height: 80%;
   justify-content: center;
-  align-items: center;
   min-width: 250px;
-  /* border: 1px solid blanchedalmond; */
+  width: 30%;
 }
 
 .card:hover {
   background-color: #4b5530;
-  opacity: .8;
+  opacity: 0.8;
   transform: scale(1.1);
 }
 
 .card-icon {
-
-  width: 70px;
   height: 70px;
+  width: 70px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .card {
+    font-size: large;
+    min-width: 200px;
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    justify-content: space-evenly;
+    width: 90%;
+  }
+
+  .card-icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .card-text-small {
+    display: none;
+  }
+
+  .visit-text {
+    display: none;
+  }
+
+  .title-text {
+    font-size: larger;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .card-icon {
+    display: none;
+  }
+
+  .card {
+    height: 25%;
+  }
 }
