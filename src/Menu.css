@@ -22,13 +22,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 800px) {
-    .menu {
-        flex-direction: column;
-    }
+  .menu {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 625px) {
-    .menu {
-        height: 40%;
-    }
+  .menu {
+    height: 40%;
+  }
 }

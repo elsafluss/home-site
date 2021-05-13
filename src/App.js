@@ -1,4 +1,3 @@
-import "./assets/background-bird.jpeg"
 import Menu from "./Menu"
 import Links from "./Links"
 import "./App.css"

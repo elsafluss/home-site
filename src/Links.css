@@ -20,12 +20,12 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .links-container {
-        width: 70%;
-    }
-    .top-link-small {
-        display: none;
-    }
+  .links-container {
+    width: 70%;
+  }
+  .top-link-small {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 625px) {
