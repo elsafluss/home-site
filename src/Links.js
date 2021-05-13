@@ -1,14 +1,14 @@
 import React from "react"
-import "./Card.css"
+import "./Links.css"
 
 const Links = () => {
   return (
     <div>
-      <a href="https://www.linkedin.com/in/elsafluss/">Find me on LinkedIn</a>
-      <a href="mailto:elsafluss@gmail.com">Email me directly</a>
-      <a href="https://terminal.turing.edu/alumni/745-elsa-fluss">
+      <a className="top-link" href="https://www.linkedin.com/in/elsafluss/">Find me on LinkedIn</a>
+      <a className="top-link" href="https://terminal.turing.edu/alumni/745-elsa-fluss">
         View my Turing portfolio
       </a>
+      <a className="top-link" href="mailto:elsafluss@gmail.com">Email me directly</a>
     </div>
   )
 }
