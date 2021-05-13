@@ -10,20 +10,21 @@ const Card = ({ title, liveSite, ghSite, icon }) => {
   return (
     <section className="card">
       {
-        icon === "chess" && (
+        icon === "chess" ? (
         <img src={chessIcon} alt="chess icon" className="card-icon" />
         )
-        ? 
-        icon === "baseball" && (
+        :
+        (icon === "baseball" ? (
         <img src={baseballIcon} alt="chess icon" className="card-icon" />
         )
         : 
         icon === "dragon" && (
         <img src={dragonIcon} alt="chess icon" className="card-icon" />
-        )
+        ))
       }
       <p>{title}</p>
-      <a href={liveSite}>deployed site</a>
+      Visit:
+      <a href={liveSite}>deployed app</a>
       <a href={ghSite}>GitHub repo</a>
     </section>
   )
