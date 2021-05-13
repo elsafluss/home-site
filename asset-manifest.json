@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/home-site/static/css/main.041df52d.chunk.css",
-    "main.js": "/home-site/static/js/main.c4bfa188.chunk.js",
-    "main.js.map": "/home-site/static/js/main.c4bfa188.chunk.js.map",
-    "runtime-main.js": "/home-site/static/js/runtime-main.48e5adff.js",
-    "runtime-main.js.map": "/home-site/static/js/runtime-main.48e5adff.js.map",
-    "static/js/2.13393170.chunk.js": "/home-site/static/js/2.13393170.chunk.js",
-    "static/js/2.13393170.chunk.js.map": "/home-site/static/js/2.13393170.chunk.js.map",
+    "main.css": "/home-site/static/css/main.4fc64a30.chunk.css",
+    "main.js": "/home-site/static/js/main.df880fbc.chunk.js",
+    "main.js.map": "/home-site/static/js/main.df880fbc.chunk.js.map",
+    "runtime-main.js": "/home-site/static/js/runtime-main.08526e55.js",
+    "runtime-main.js.map": "/home-site/static/js/runtime-main.08526e55.js.map",
+    "static/js/2.4d764366.chunk.js": "/home-site/static/js/2.4d764366.chunk.js",
+    "static/js/2.4d764366.chunk.js.map": "/home-site/static/js/2.4d764366.chunk.js.map",
+    "static/js/3.f4b8211b.chunk.js": "/home-site/static/js/3.f4b8211b.chunk.js",
+    "static/js/3.f4b8211b.chunk.js.map": "/home-site/static/js/3.f4b8211b.chunk.js.map",
     "index.html": "/home-site/index.html",
-    "static/css/main.041df52d.chunk.css.map": "/home-site/static/css/main.041df52d.chunk.css.map",
-    "static/js/2.13393170.chunk.js.LICENSE.txt": "/home-site/static/js/2.13393170.chunk.js.LICENSE.txt",
+    "static/css/main.4fc64a30.chunk.css.map": "/home-site/static/css/main.4fc64a30.chunk.css.map",
+    "static/js/2.4d764366.chunk.js.LICENSE.txt": "/home-site/static/js/2.4d764366.chunk.js.LICENSE.txt",
     "static/media/App.css": "/home-site/static/media/background-bird.abd91262.jpeg",
-    "static/media/baseball-icon.7710e41b.png": "/home-site/static/media/baseball-icon.7710e41b.png",
-    "static/media/dragon-icon.8677a698.png": "/home-site/static/media/dragon-icon.8677a698.png"
+    "static/media/baseball-icon.c2d45464.png": "/home-site/static/media/baseball-icon.c2d45464.png",
+    "static/media/chess-icon.1b5031ca.png": "/home-site/static/media/chess-icon.1b5031ca.png",
+    "static/media/dragon-icon.7bf33f03.png": "/home-site/static/media/dragon-icon.7bf33f03.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.48e5adff.js",
-    "static/js/2.13393170.chunk.js",
-    "static/css/main.041df52d.chunk.css",
-    "static/js/main.c4bfa188.chunk.js"
+    "static/js/runtime-main.08526e55.js",
+    "static/js/2.4d764366.chunk.js",
+    "static/css/main.4fc64a30.chunk.css",
+    "static/js/main.df880fbc.chunk.js"
   ]
 }
