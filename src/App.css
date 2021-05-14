@@ -66,6 +66,7 @@ a {
 @media only screen and (max-width: 625px) {
   .App {
     background-image: url("./assets/background-bird4.jpeg");
+    justify-content: flex-start;
   }
 
   .App-header {
