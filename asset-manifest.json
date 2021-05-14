@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/home-site/static/css/main.f256b7de.chunk.css",
+    "main.css": "/home-site/static/css/main.3a1d6514.chunk.css",
     "main.js": "/home-site/static/js/main.e5e1e418.chunk.js",
     "main.js.map": "/home-site/static/js/main.e5e1e418.chunk.js.map",
     "runtime-main.js": "/home-site/static/js/runtime-main.48e5adff.js",
@@ -8,7 +8,7 @@
     "static/js/2.4d764366.chunk.js": "/home-site/static/js/2.4d764366.chunk.js",
     "static/js/2.4d764366.chunk.js.map": "/home-site/static/js/2.4d764366.chunk.js.map",
     "index.html": "/home-site/index.html",
-    "static/css/main.f256b7de.chunk.css.map": "/home-site/static/css/main.f256b7de.chunk.css.map",
+    "static/css/main.3a1d6514.chunk.css.map": "/home-site/static/css/main.3a1d6514.chunk.css.map",
     "static/js/2.4d764366.chunk.js.LICENSE.txt": "/home-site/static/js/2.4d764366.chunk.js.LICENSE.txt",
     "static/media/App.css": "/home-site/static/media/background-bird4.e3c3a020.jpeg",
     "static/media/baseball-icon.c2d45464.png": "/home-site/static/media/baseball-icon.c2d45464.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.48e5adff.js",
     "static/js/2.4d764366.chunk.js",
-    "static/css/main.f256b7de.chunk.css",
+    "static/css/main.3a1d6514.chunk.css",
     "static/js/main.e5e1e418.chunk.js"
   ]
 }
